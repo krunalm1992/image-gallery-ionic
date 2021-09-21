@@ -4,7 +4,7 @@
 
 export const environment = {
   production: false,
-  apiBaseUrl: 'http://image-gallery.freecluster.eu'
+  apiBaseUrl: 'https://image-gallery-2021.000webhostapp.com'
 };
 
 /*

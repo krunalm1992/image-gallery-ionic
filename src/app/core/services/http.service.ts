@@ -50,6 +50,6 @@ export class HttpService {
   }
 
   deleteImage(id) {
-    return this.http.delete(`${this.url}/api/delete-image/${id}`);
+    return this.http.get(`${this.url}/api/delete-image/${id}`);
   }
 }
